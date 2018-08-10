@@ -1,0 +1,14 @@
+{
+    "log_server": {
+        "protocol": "http",
+        "host": "localhost",
+        "api": "api_log_server",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJteV9pc3N1cmVyIiwiYXVkIjoiV29ybGQiLCJpYXQiOjE0MDAwNjI0MDAyMjMsInR5cCI6Ii9vbmxpbmUvdHJhbnNhY3Rpb25zdGF0dXMvdjIiLCJ1c2VyIjp7ImlkIjoiNWI2NDIyNzEwNmEzZjMyNDhiZmJjZDYyIiwibmFtZSI6InRlc3QiLCJwYXNzd29yZCI6IjU2MjI2MTZjZjliZmNhNjc3NDBlMzhjMWU1NmVhYzMzIn19.AVehMb7IpSFLu6GLGZKJVzH4cQ76XnZ3NtWY8GIwfOI",
+        "rule": "test log",
+        "port": 3030
+    },
+    "log_watcher": {
+        "fileName": "debug.log",
+        "dirName": "/home/nicola/www/wds/dist/logs"
+    }
+}

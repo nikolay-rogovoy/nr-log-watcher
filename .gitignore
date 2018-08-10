@@ -1,0 +1,9 @@
+.idea/
+dist/
+node_modules/
+npm-debug.log
+*.js
+*.js.map
+.nyc_output
+.DS_Store
+coverage
